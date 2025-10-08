@@ -8,6 +8,7 @@ int main(){
     int id;
     string name;
     string major;
+    string university;
     int grade;
 
     cout << "이름을 입력하세요: ";
@@ -16,6 +17,8 @@ int main(){
     cin >> id;
     cout << "학과를 입력하세요: ";
     cin >> major;
+    cout << "학교를 입력하세요: ";
+    cin >> university;
     cout << "학년을 입력하세요: ";
     cin >> grade;
 
@@ -23,5 +26,6 @@ int main(){
     cout << "이름: " << name;
     cout << "\n학번: " << id;
     cout << "\n학과: " << major;
+    cout << "\n학교: " << university;
     cout << "\n학년: " << grade;
 }
